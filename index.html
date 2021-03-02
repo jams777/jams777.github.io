@@ -68,6 +68,18 @@
         var chatbotuserId = '난누구야';
 
     </script>
+    <!-- Appinventor : https://appinventor.mit.edu/explore/ai2/webview-javascript -->
+    <script>
+        function sendAppInventor(webViewString) {
+            if (window.AppInventor) {
+                window.AppInventor.setWebViewString(webViewString);
+            } else {
+                alert('AppInventor에서만 사용가능합니다.');
+            }
+
+        }
+
+    </script>
     <script src="build.js"></script>
 
 </body>
